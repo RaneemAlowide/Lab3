@@ -1,10 +1,4 @@
 package designpatternlab3;
-
-/**
- *
- * @author Raghad
- */
-
 interface Document extends Cloneable {
     Document clone();
     void configure();
