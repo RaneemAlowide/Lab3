@@ -1,9 +1,4 @@
 package designpatternlab3;
-
-/**
- *
- * @author Raghad
- */
 interface GameLevel extends Cloneable {
     GameLevel clone();
     void configure();
